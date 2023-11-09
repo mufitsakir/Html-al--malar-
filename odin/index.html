@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arka Plan Resmi ve Label</title>
+    <style>
+        h1{
+            color: #fff;
+        }
+        p{
+            color: #fff;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('col.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            padding: 100px;
+        }
+
+        .label {
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hoş Geldiniz</h1>
+        <p>Bu bir intihar mesajıdır.</p>
+        <div class="label">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName">
+            
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber">
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword">
+            <input type="submit" value="Create Account">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+    "yemekler": [
+      {
+        "id": 1,
+        "yemek_adı": "Tavuklu Noodle Çorbası",
+        "malzemeler": ["tavuk göğsü", "noodle", "soğan", "sarımsak", "zencefil", "biber salçası", "soya sosu"],
+        "tarif": "Tavuklu noodle çorbası tarifi buraya gelecek."
+      },
+      {
+        "id": 2,
+        "yemek_adı": "Mevsim Salatası",
+        "malzemeler": ["marul", "domates", "salatalık", "taze soğan", "zeytinyağı", "limon suyu", "tuz"],
+        "tarif": "Mevsim salatası tarifi buraya gelecek."
+      },
+      {
+        "id": 3,
+        "yemek_adı": "Kırmızı Mercimek Çorbası",
+        "malzemeler": ["kırmızı mercimek", "soğan", "havuç", "patates", "sarımsak", "biber salçası", "kimyon"],
+        "tarif": "Kırmızı mercimek çorbası tarifi buraya gelecek."
+      },
+      {
+        "id": 4,
+        "yemek_adı": "Tavuk Şiş",
+        "malzemeler": ["tavuk göğsü", "yoğurt", "zeytinyağı", "limon suyu", "kekik", "sarımak"],
+        "tarif": "Tavuk şiş tarifi buraya gelecek."
+      },
+      {
+        "id": 5,
+        "yemek_adı": "Mantar Risotto",
+        "malzemeler": ["mantar", "pirinç", "soğan", "şarap", "tavuk suyu", "parmesan peyniri"],
+        "tarif": "Mantar risotto tarifi buraya gelecek."
+      }
+    ]
+  }
+  

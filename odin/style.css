@@ -1,0 +1,38 @@
+/* .container'ı ve içeriği düzenle */
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+/* Body etiketine arka plan resmi ekle */
+body {
+    background-image: url('col.jpg'); /* Kullanmak istediğiniz arka plan resminin dosya yolunu belirtin */
+    background-size: cover; /* Resmi ekran boyutlarına uyacak şekilde ölçekle */
+    background-position: center; /* Resmi ortala */
+}
+
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* 3 sütunlu yap */
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* label ve input etiketlerini yan yana getir */
+label {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+input {
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+input[type="submit"] {
+    grid-column: span 3; /* 3 sütun boyunca uzanacak şekilde yap */
+    margin-top: 20px;
+}
